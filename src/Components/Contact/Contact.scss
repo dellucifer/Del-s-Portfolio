@@ -1,0 +1,60 @@
+.contact {
+    max-width: 70%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    .textContainer {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        h1 {
+            font-size: 70px;
+            line-height: 70px;
+        }
+
+        span {
+            font-weight: 200;
+        }
+    }
+
+    .formContainer {
+        flex: 1;
+        position: relative;
+
+        .phoneSvg {
+            position: absolute;
+            stroke: orange;
+            margin: auto;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            input, textarea {
+                padding: 15px;
+                border: 1px solid gray;
+                background-color: transparent;
+                border-radius: 5px;
+                outline: none;
+                color: white;
+                resize: none;
+            }
+
+            button {
+                padding: 10px;
+                border: none;
+                background-color: orange;
+                cursor: pointer;
+                font-size: 20px;
+                font-weight: 300;
+            }
+        }
+    }
+}

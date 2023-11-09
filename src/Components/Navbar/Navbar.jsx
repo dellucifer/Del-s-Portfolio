@@ -6,7 +6,6 @@ import Sidebar from "../Sidebar/Sidebar";
 const Navbar = () => {
   return (
     <div className="navbar">
-      {/* Sidebar */}
       <Sidebar />
       <div className="wrapper">
         <motion.span
@@ -14,7 +13,7 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{duration: 0.5}}
         >
-          Priyanshu Choudhary
+          Welcome, User
         </motion.span>
 
         <div className="socials">

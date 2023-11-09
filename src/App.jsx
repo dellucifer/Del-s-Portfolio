@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-// import './App.css'
 import './app.scss'
 import Navbar from './Components/Navbar/Navbar'
 import Priyanshu from './Components/Priyanshu/Priyanshu'
@@ -8,12 +6,14 @@ import Parallax from './Components/Parallax/Parallax'
 import Skills from './Components/Skills/Skills'
 import Projects from './Components/Projects/Projects'
 import Contact from './Components/Contact/Contact'
+import Cursor from './Components/Cursor/Cursor'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <Cursor />
       <section id='Homepage'>
         <Navbar />
         <Priyanshu />

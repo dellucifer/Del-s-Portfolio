@@ -1,3 +1,5 @@
+@import '../../app.scss';
+
 .skills {
     background: linear-gradient(180deg, #0c0c1d, #111132);
     height: 100%;
@@ -13,6 +15,12 @@
         gap: 20px;
         align-items: center;
 
+        @include mobile {
+            align-self: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
         p {
             font-weight: lighter;
             font-size: 15px;
@@ -24,6 +32,10 @@
             width: 300px;
             border: none;
             border-top: 0.5px solid gray;
+
+            @include mobile {
+                width: 250px;
+            }
         }
     }
 
@@ -34,21 +46,39 @@
         align-items: center;
         gap: 30px;
 
+        @include mobile {
+            width: 100%;
+        }
+
         .title {
             display: flex;
             gap: 40px;
             align-items: center;
+
+            @include mobile {
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
 
             img {
                 width: 200px;
                 height: 67px;
                 border-radius: 40px;
                 object-fit: cover;
+
+                @include mobile {
+                    display: none;
+                }
             }
 
             h1 {
                 font-size: 60px;
                 font-weight: 100;
+
+                @include mobile {
+                    font-size: 30px;
+                }
             }
 
             button {
@@ -59,6 +89,12 @@
                 border: none;
                 font-size: 20px;
                 cursor: pointer;
+
+                @include mobile {
+                    font-size: 15px;
+                    width: 150px;
+                    height: 50px;
+                }
             }
         }
     }
@@ -69,12 +105,24 @@
         max-width: 70vw;
         margin: auto;
 
+        @include mobile {
+            flex-direction: column;
+            // width: 100%;
+            max-width: 100%;
+        }
+
         .box {
             padding: 50px;
             border: 0.5px solid gray;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+
+            p {
+                @include mobile {
+                    font-size: 5px;
+                }
+            }
         }
     }
 }

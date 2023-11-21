@@ -7,6 +7,7 @@ import Skills from './Components/Skills/Skills'
 import Projects from './Components/Projects/Projects'
 import Contact from './Components/Contact/Contact'
 import Cursor from './Components/Cursor/Cursor'
+import Testimonial from './Components/Testimonials/Testimonial'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,7 +23,7 @@ function App() {
       <section><Skills /></section>
       <section id='Projects'><Parallax type="projects" /></section>
       <Projects />
-      <section id='Testimonials'>Testimonials</section>
+      <section id='Testimonials'><Testimonial /></section>
       <section id='Contact'>
         <Contact />
       </section>

@@ -2,7 +2,7 @@ const data = [
   {
     author: "Sandeep Kumar",
     title: "Co-Founder HackersLounge, YouTuber 50K+ Fam",
-    img: "https://media.licdn.com/dms/image/D4D03AQFVUES-Xq2-wA/profile-displayphoto-shrink_800_800/0/1697779194688?e=1705536000&v=beta&t=kRoWlkw19eZ8bly9p41VhmCkdQ6oXUks2AM3c2Waa18",
+    img: "https://media.licdn.com/dms/image/D4D03AQFqc5s9J_CQNQ/profile-displayphoto-shrink_400_400/0/1700592847890?e=1706140800&v=beta&t=TtSo9H48EZk0b3A0nqzNMMbJWjJXyBLoik_mtWJN0cU",
     testimonial:
       "I had the privilege of mentoring Priyanshu, and I'm impressed by their expertise in cybersecurity. They have a keen analytical mind and a strong commitment to excellence. Priyanshu is a valuable asset for any team or organization seeking top-tier cybersecurity talent. All the best",
     linkedin: "https://www.linkedin.com/in/isandeepkumar/",

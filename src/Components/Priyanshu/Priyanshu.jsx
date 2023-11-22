@@ -50,7 +50,7 @@ const Priyanshu = () => {
             <motion.button variants={textVariants}>Wanna see my Projects?</motion.button>
             <motion.button variants={textVariants}>Contact Me</motion.button>
           </motion.div>
-          <motion.img src="/scroll.png" alt="" variants={textVariants} animate="scrollButton" />
+          <motion.img src="/images/scroll.png" alt="" variants={textVariants} animate="scrollButton" />
         </motion.div>
       </div>
 
@@ -59,7 +59,7 @@ const Priyanshu = () => {
       </motion.div>
 
       <div className="imageContainer">
-        <img src="/Priyanshu.png" alt="" />
+        <img src="/images/Priyanshu.png" alt="" />
       </div>
     </div>
   );

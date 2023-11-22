@@ -7,25 +7,25 @@ const Projects = () => {
     {
       id: 1,
       title: "Del's Code Editor",
-      img: "/Priyanshu.png",
+      img: "/images/Priyanshu.png",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam asperiores exercitationem fugit nam nulla porro, voluptatum tenetur. Aliquid, odit labore voluptatum repellat dolorem sequi maiores.",
     },
     {
       id: 2,
       title: "Apni Dukaan",
-      img: "/Priyanshu.png",
+      img: "/images/Priyanshu.png",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam asperiores exercitationem fugit nam nulla porro, voluptatum tenetur. Aliquid, odit labore voluptatum repellat dolorem sequi maiores.",
     },
     {
       id: 3,
       title: "AMS",
-      img: "/ams.png",
+      img: "/images/ams.png",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam asperiores exercitationem fugit nam nulla porro, voluptatum tenetur. Aliquid, odit labore voluptatum repellat dolorem sequi maiores.",
     },
     {
       id: 4,
       title: "Project 4",
-      img: "/Priyanshu.png",
+      img: "/images/Priyanshu.png",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam asperiores exercitationem fugit nam nulla porro, voluptatum tenetur. Aliquid, odit labore voluptatum repellat dolorem sequi maiores.",
     },
   ];
